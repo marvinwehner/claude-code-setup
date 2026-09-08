@@ -1,4 +1,4 @@
-# claude-code-setup
+# Claude Code CLI Setup
 
 My personal Claude Code CLI setup on Windows 11
 
@@ -10,12 +10,13 @@ My personal Claude Code CLI setup on Windows 11
 
 ## CLAUDE.md
 
-My [CLAUDE.md](CLAUDE.md).
+My [CLAUDE.md](CLAUDE.md) that is located at ```~\.claude\CLAUDE.md```
 
 Inspired by [Andrej Karpathy](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md) and [this prompt here](https://github.com/disler/fixing-smartass-opus-5/blob/main/sr_opus_5_system_prompt.md).
 
 ## Marketplaces and Plugins
 
+The plugins i find actually useful
 ```bash
 # pptx docx xlsx skills from anthropic
 claude plugin marketplace add anthropics/skills
@@ -41,7 +42,7 @@ claude plugin install playwright@claude-plugins-official        # for automated 
 
 ## Settings
 
-in ```~\.claude\settings.json```
+My preferred settings in ```~\.claude\settings.json```
 
 | Key | Value | Effect |
 | --- | --- | --- |
@@ -69,9 +70,14 @@ Environment variables set under `env`:
 
 ## Additional Tools
 
+I also have those tools installed:
+
 | Tool | Link | Effect |
 | --- | --- |  --- |
-|  Rust Token Killer (RTK) | [https://www.rtk-ai.app/](https://www.rtk-ai.app/) | Saves tokens by compacting certain tool outputs before Claude reads them |
+|  Rust Token Killer | [https://www.rtk-ai.app/](https://www.rtk-ai.app/) | Saves tokens by compacting certain tool outputs before Claude reads them |
+|  Claude Tap | [https://github.com/liaohch3/claude-tap]( https://github.com/liaohch3/claude-tap) | Helps you analyse how Claude Code CLI actually works and what context is transmitted |
+
+
 
 
 ## When using API-Key
